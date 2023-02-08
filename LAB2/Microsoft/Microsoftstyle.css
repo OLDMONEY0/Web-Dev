@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-width: 320px;
+    background-color:#fff;
+    color:#000;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    list-style: none;
+}
+.up{
+    width: 100%;
+    max-width: 1600px;
+    margin: auto;
+}
+.texts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 5px 90px;
+    font-size: 13px;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.texts .logo_mic{
+    width: 110px;
+}
+.texts ul{
+    display: flex;
+}
+
+.texts ul li{
+    padding: 0 10px;
+}
+.texts ul li a{
+    border-bottom: 2px;
+}
+
+.texts ul li a:hover{
+    border-bottom: 2px solid black;
+}
+
+.texts ul.main-menu{
+    flex: 1;
+    margin-left: 20px;
+}
+
+.heading{
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Hero-Windows11-GlobalLaunch:VP5-1920x600");
+    padding:180px 0 180px 120px ;
+    background-size: 100%;
+    width: 100%;
+    height: 470px;
+}
+ .heading p{
+     font-family:"Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+     font-weight: 400;
+     line-height: 1.5;
+     font-size: 1rem;
+     margin-bottom: 24px;
+ }
+
+ .button {
+     padding: 10px 12px 10px 12px;
+     border: 1px solid black;
+     background-color: #0067b8;
+     color: white;
+ }
+
+ .prod_but:hover{
+     text-decoration: underline 2px;
+     text-underline-color: black;
+     text-underline-offset: 4px;
+ }
+
+ .sea-button:hover{
+     text-decoration: underline 2px;
+     text-underline-color: rgb(0, 0, 0);
+     text-underline-offset: 4px;
+ }
+.main {
+    width: 100%;
+    height: 475px;
+}
+
+.img-button {
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Hero-Windows11-GlobalLaunch:VP5-1920x600");
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    cursor: pointer;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.ready-text {
+    margin-left: 80px;
+    width: 569px;
+    height: 340px;
+    padding: 48px;
+}
+
+.h1-text {
+    /*word-wrap: break-word;*/
+    text-align: left;
+    font-size: 37px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin: 0 0 20px;
+}
+
+.ready-desc {
+    text-align: left;
+    font-size: 16px;
+    margin: 0 0 36px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.ready-link {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1;
+    background-color: rgb(0, 103, 184);
+    border: 0.125rem solid transparent;
+    border-radius: 0.125rem;
+    text-decoration: none;
+    margin: 8px 231px 8px 0;
+    padding: 8px 12px;
+}
+
+.microsoft-block {
+    margin-top: 96px;
+    height: 525px;
+    padding: 0 5%;
+    display: flex;
+    font-family: 'Segoe UI', SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.block-img {
+    width: 324px;
+    height: 182px;
+}
+
+.block-elem{
+    margin: 0;
+}
+
+.one, .two,.three {
+    margin-right: 23px;
+}
+
+.block-text {
+    padding-top: 12px;
+}
+
+.h2-text {
+    margin: 0 0 16px 0;
+    font-size: 29px;
+    font-family: inherit;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.p-text {
+    margin: 0;
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+.link-group {
+    padding-top: 8px;
+}
+
+.end-link {
+    margin: 16px 34px 16px 0;
+    display: inline-block;
+    font-weight: 600;
+    color: rgb(0, 103, 184);
+    text-decoration: none;
+}
+
+.end-link:hover {
+    text-decoration: underline;
+}
+
+.arrow-right {
+    /*float: right;*/
+    width: 13px;
+}
+
+
+
+
+
+
+
+
