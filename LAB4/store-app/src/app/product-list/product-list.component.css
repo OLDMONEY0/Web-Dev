@@ -1,0 +1,32 @@
+.card{
+    padding: 10px 10px 30px 5px;
+    border: 1px solid rgb(232, 232, 232);
+    margin: 6px;
+    box-shadow: 10px 5px 5px rgb(232, 232, 232);
+    margin: 0 0 0 150px;
+  }
+  
+
+img{
+    width: 200px;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+}
+
+.butt{
+    display: flex;
+    justify-content: center;
+}
+
+.image-col{
+    display: flex;
+    justify-content: center;
+}
+
+.butt{
+    display: flex;
+    justify-content: center;
+}
