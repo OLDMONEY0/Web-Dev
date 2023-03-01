@@ -1,0 +1,8 @@
+<h2>Products</h2>
+
+<div class="list-block">
+    <div *ngFor="let item of filterProducts">
+        <app-product-item [item]="item" (remove)="onDeleteItem($event)"></app-product-item>
+    </div>
+
+</div>
