@@ -1,0 +1,10 @@
+<div *ngIf="loaded">    
+    <h2>User id  {{album.userId}} #{{album.id}}</h2>
+
+    <h4>{{album.title}}</h4>
+
+  <input type="text" placeholder="New title"><button (click)="renameAlbum()">Save</button>
+  <br>
+  <a routerLink="/albums/{{album.id}}/photos">Photos</a>
+</div>
+<h3 *ngIf="!loaded">Album detail is loading...</h3>

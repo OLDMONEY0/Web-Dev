@@ -1,0 +1,7 @@
+<h1>Photo List!</h1>
+<a  style = "text-decoration: none;
+            padding: 3px;
+            border: 1px solid grey;" routerLink="/albums/{{albumId}}">Return back</a>
+<div *ngFor="let photo of photos" class="photo-list">
+  <img src="{{photo.url}}" alt="{{photo.thumbnailUrl}}">
+</div>
